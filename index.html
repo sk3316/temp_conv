@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature convertor</h1>
+        <br>
+        <input id = "celsius" type = "number" placeholder = "Enter temperature to convert: ">
+        <select name = "temps" id = "temps">
+            <option value="C->F">°C &rarr; °F</option>
+            <option value="C->K">°C &rarr; K</option>
+            <option value="F->C">°F &rarr; °C</option>
+            <option value="F->K">°F &rarr; K</option>
+            <option value="K->C">K &rarr; °C</option>
+            <option value="K->F">K &rarr; °F</option>
+        </select>
+        <br>
+        <br>
+        <button onclick="convertTemperature()">Convert</button>
+        <br>
+        <br>
+        <p class="result" id = "result"></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(243,243,243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 10%;
+}
+.container{
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 310px;
+    box-shadow: rgb(24, 118, 218) 0px 20px 30px -10px;
+
+}
+.container h1{
+    color: rgb(52,152,219);
+}
+#celsius{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(52, 152, 219);
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+p.result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ecc71;
+}
